@@ -5,14 +5,14 @@ export const companies = [
     role: 'Web Development Intern',
     skills: ['MongoDB', 'Express', 'HTML', 'CSS', 'JS', 'Node.js'],
     period: 'Present',
-    logo: '/assets/images/logos/ineuron.png'
+    logo: '/public/assets/images/logos/ineuron.png'
   },
   {
     title: 'Entrepreneurship Cell, IIT Bombay',
     alt: 'BT image',
     role: 'Campus Ambassador',
     period: 'Present',
-    logo: '/assets/images/logos/ecell.jpg'
+    logo: '/public/assets/images/logos/ecell.jpg'
   },
 
 ];
@@ -26,7 +26,7 @@ export const institutes = [
     skills: ['project management', 'web development', 'data structures'],
     period: '2021 - 2025',
     startingYear: '2021',
-    logo: '/assets/images/logos/hit.png',
+    logo: '/public/assets/images/logos/hit.png',
 
   }
 ];
@@ -44,7 +44,7 @@ export const skillsArray = [
     description: 'Web development',
     link: 'https://reactjs.org/',
     type: 'development',
-    image: '/assets/images/skills/react.png'
+    image: '/public/assets/images/skills/react.png'
   },
   // {
   //   name: 'Ruby',
@@ -58,42 +58,42 @@ export const skillsArray = [
     description: 'Web development, scrapping',
     link: 'https://www.python.org/',
     type: 'development',
-    image: '/assets/images/skills/python.png'
+    image: '/public/assets/images/skills/python.png'
   },
   {
     name: 'Javascript',
     description: 'Web development',
     link: 'https://developer.mozilla.org/en-US/docs/Web/JavaScript',
     type: 'development',
-    image: '/assets/images/skills/javascript.png'
+    image: '/public/assets/images/skills/javascript.png'
   },
   {
     name: 'Typescript',
     description: 'Web development',
     link: 'https://www.typescriptlang.org/',
     type: 'development',
-    image: '/assets/images/skills/typescript.png'
+    image: '/public/assets/images/skills/typescript.png'
   },
   {
     name: 'Html5',
     description: 'Web layouts',
     link: 'https://developer.mozilla.org/en-US/docs/Web/Guide/HTML/HTML5',
     type: 'development',
-    image: '/assets/images/skills/html-5.png'
+    image: '/public/assets/images/skills/html-5.png'
   },
   {
     name: 'Css3',
     description: 'Web design',
     link: 'https://developer.mozilla.org/en-US/docs/Web/CSS',
     type: 'design',
-    image: '/assets/images/skills/css3.png'
+    image: '/public/assets/images/skills/css3.png'
   },
   {
     name: 'Bootstrap',
     description: 'Web design',
     link: 'https://getbootstrap.com/',
     type: 'design',
-    image: '/assets/images/skills/bootstrap.png'
+    image: '/public/assets/images/skills/bootstrap.png'
   },
 
   {
@@ -101,7 +101,7 @@ export const skillsArray = [
     description: 'Database',
     link: 'https://www.mysql.com/',
     type: 'database',
-    image: '/assets/images/skills/mysql.png'
+    image: '/public/assets/images/skills/mysql.png'
   },
 
   {
@@ -109,14 +109,14 @@ export const skillsArray = [
     description: 'Devops',
     link: 'https://www.heroku.com/',
     type: 'devops',
-    image: '/assets/images/skills/heroku.png'
+    image: '/public/assets/images/skills/heroku.png'
   },
   {
     name: 'AWS',
     description: 'Devops',
     link: 'https://aws.amazon.com/',
     type: 'devops',
-    image: 'assets/images/skills/aws.png'
+    image: '/public/assets/images/skills/aws.png'
   },
 
   {
@@ -124,28 +124,28 @@ export const skillsArray = [
     description: 'Web server',
     link: 'https://www.nginx.com/',
     type: 'devops',
-    image: '/assets/images/skills/nginx.png'
+    image: '/public/assets/images/skills/nginx.png'
   },
   {
     name: 'Visual Studio Code',
     description: 'Code editor of choice',
     link: 'https://code.visualstudio.com/',
     type: 'development',
-    image: '/assets/images/skills/vscode.png'
+    image: '/public/assets/images/skills/vscode.png'
   },
   {
     name: 'Atom',
     description: 'Code editor',
     link: 'https://atom.io/',
     type: 'development',
-    image: '/assets/images/skills/atom.svg'
+    image: '/public/assets/images/skills/atom.svg'
   },
   {
     name: 'Figma',
     description: 'Collaborative Design',
     link: 'https://www.figma.com/',
     type: 'design',
-    image: '/assets/images/skills/figma.png'
+    image: '/public/assets/images/skills/figma.png'
   }
 ];
 
