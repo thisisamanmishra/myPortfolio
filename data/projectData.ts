@@ -14,7 +14,7 @@ export const projectsList = [
     blurHash: 'L4ADc400P*Zi4Tu1y;Qo00pH#YXl',
     site: 'https://github.com/thisisamanmishra/music_player/',
     description:
-      'A Spotify clone made using ReactJs, TailwindCSS and Restful Api',
+      'A Spotify clone made using ReactJs, TailwindCSS and Restful Api. It has various features like play music, pause, search musics and many more.',
     techStack: ['ReactJs', 'TailwindCSS']
   },
   {
@@ -25,6 +25,24 @@ export const projectsList = [
     description:
       'A Blogging app Made using Backend Technology.',
     techStack: ['mongoDb','expressJs','ejs','nodeJs']
+  },
+     {
+    title: 'Amazon Clone',
+    imageLight: '/public/assets/images/projects/ecom.png',
+    blurHash: 'L4ADc400P*Zi4Tu1y;Qo00pH#YXl',
+    site: 'https://github.com/thisisamanmishra/eCom/',
+    description:
+      'Amazon clone made using ReactJs, TailwindCSS and Restful Api',
+    techStack: ['ReactJs', 'TailwindCSS']
+  },
+     {
+    title: 'Cryptoworld',
+    imageLight: '/public/assets/images/projects/cryptoworld.png',
+    blurHash: 'L4ADc400P*Zi4Tu1y;Qo00pH#YXl',
+    site: 'https://github.com/thisisamanmishra/cryptoworld/',
+    description:
+      'It is made using ReactJs, TailwindCSS and Restful Api. It provides data about data and news about various Cryptocurrencies.',
+    techStack: ['ReactJs', 'TailwindCSS']
   },
 
 ];
