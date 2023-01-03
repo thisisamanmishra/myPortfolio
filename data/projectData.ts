@@ -1,7 +1,7 @@
 export const projectsList = [
   {
     title: 'Cryptoworld',
-    imageLight: '/public/assets/images/projects/cryptoworld.png',
+    imageLight: '/assets/images/projects/cryptoworld.png',
     blurHash: 'L4ADc400P*Zi4Tu1y;Qo00pH#YXl',
     site: 'https://eaboutcrypto.netlify.app/',
     description:
@@ -10,7 +10,7 @@ export const projectsList = [
   },
   {
     title: 'BreathitAway',
-    imageLight: '/public/assets/images/projects/breathitaway.png',
+    imageLight: '/assets/images/projects/breathitaway.png',
     blurHash: 'L4ADc400P*Zi4Tu1y;Qo00pH#YXl',
     site: 'https://breathitaway.netlify.app',
     description:
@@ -19,7 +19,7 @@ export const projectsList = [
   },
    {
     title: 'Spotify Clone',
-    imageLight: '/public/assets/images/projects/musicplayer.png',
+    imageLight: '/assets/images/projects/musicplayer.png',
     blurHash: 'L4ADc400P*Zi4Tu1y;Qo00pH#YXl',
     site: 'https://musiclyriksplayer.netlify.app/',
     description:
@@ -29,7 +29,7 @@ export const projectsList = [
   {
     title: 'BloggingWEb',
     site: 'https://github.com/thisisamanmishra/BloggingWEb',
-    imageLight: '/public/assets/images/projects/cover/blogging.png',
+    imageLight: '/assets/images/projects/cover/blogging.png',
     blurHash: 'L0Aer?tjH[tPyAayj[j[00ay%xkB',
     description:
       'A Blogging app Made using Backend Technology.',
@@ -37,7 +37,7 @@ export const projectsList = [
   },
      {
     title: 'Amazon Clone',
-    imageLight: '/public/assets/images/projects/ecom.png',
+    imageLight: '/assets/images/projects/ecom.png',
     blurHash: 'L4ADc400P*Zi4Tu1y;Qo00pH#YXl',
     site: 'https://github.com/thisisamanmishra/eCom/',
     description:
