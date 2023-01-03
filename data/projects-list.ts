@@ -1,4 +1,4 @@
-import peterpitch from "assets/images/projects/breathitaway.png";
+
 
 
 export const projectsList = [
