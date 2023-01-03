@@ -60,11 +60,36 @@ const Achievements = () => {
         </Header>
       </Box>
       <VStack textAlign="start" align="start" mb={5}>
+      <Box zIndex={5}>
+          <Heading fontSize="2xl" fontWeight="600" my={5}>
+            2023
+          </Heading>
+          <Box>
+          <TimelineItem icon={FiHome}>
+              Project Mentor - {' '}
+              <ExternalLink
+                color={linkColor}
+                url="https://swoc.getsocialnow.co/"
+                text={"SWoC'23"}
+                target="_blank"
+              />
+              </TimelineItem>
+          </Box>
+          </Box>
         <Box zIndex={5}>
           <Heading fontSize="2xl" fontWeight="600" my={5}>
             2022
           </Heading>
           <Box>
+          <TimelineItem icon={FiUsers}>
+              Project Mentor - {' '}
+              <ExternalLink
+                color={linkColor}
+                url="https://kwoc.kossiitkgp.org/"
+                text={"KWoC'22"}
+                target="_blank"
+              />
+            </TimelineItem>
             <TimelineItem icon={FiPackage}>
               Web Development Intern at {' '}
               <ExternalLink
@@ -75,14 +100,14 @@ const Achievements = () => {
               />
             </TimelineItem>
             <TimelineItem icon={FiUsers}>
-             Social Summer of Code(
+             Project Contributor - {' '}
              <ExternalLink
                color={linkColor}
                url="https://ssoc.devfolio.co/"
-               text={'SSOC'}
+               text={"SSOC'22"}
                target="_blank"
              />
-           ) Contributor
+           
             </TimelineItem>
 
             <TimelineItem icon={FiUsers}>
