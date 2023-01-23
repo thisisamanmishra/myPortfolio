@@ -65,12 +65,21 @@ const Achievements = () => {
             2023
           </Heading>
           <Box>
-          <TimelineItem icon={FiHome}>
+          <TimelineItem icon={FiUsers}>
               Project Mentor - {' '}
               <ExternalLink
                 color={linkColor}
                 url="https://swoc.getsocialnow.co/"
                 text={"SWoC'23"}
+                target="_blank"
+              />
+              </TimelineItem>
+            <TimelineItem icon={FiHome}>
+              Web Developement Intern at - {' '}
+              <ExternalLink
+                color={linkColor}
+                url="https://www.linkedin.com/company/amieexplore/"
+                text={"Amie Explore"}
                 target="_blank"
               />
               </TimelineItem>
@@ -90,7 +99,7 @@ const Achievements = () => {
                 target="_blank"
               />
             </TimelineItem>
-            <TimelineItem icon={FiPackage}>
+            <TimelineItem icon={FiHome}>
               Web Development Intern at {' '}
               <ExternalLink
                 color={linkColor}
