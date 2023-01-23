@@ -65,15 +65,6 @@ const Achievements = () => {
             2023
           </Heading>
           <Box>
-          <TimelineItem icon={FiUsers}>
-              Project Mentor - {' '}
-              <ExternalLink
-                color={linkColor}
-                url="https://swoc.getsocialnow.co/"
-                text={"SWoC'23"}
-                target="_blank"
-              />
-              </TimelineItem>
             <TimelineItem icon={FiHome}>
               Web Developement Intern at - {' '}
               <ExternalLink
@@ -82,6 +73,16 @@ const Achievements = () => {
                 text={"Amie Explore"}
                 target="_blank"
               />
+              </TimelineItem>
+          <TimelineItem icon={FiUsers}>
+              Project Mentor - {' '}
+              <ExternalLink
+                color={linkColor}
+                url="https://swoc.getsocialnow.co/"
+                text={"SWoC'23"}
+                target="_blank"
+              />
+            .
               </TimelineItem>
           </Box>
           </Box>
