@@ -1,17 +1,41 @@
 export const companies = [
   {
+    title: 'Amie Explore',
+    alt: 'PS image',
+    role: 'Web Development Intern',
+    skills: ['MongoDB', 'Express', 'HTML', 'CSS', 'JS', 'Node.js'],
+    period: 'Jan 2023 - Present',
+    logo: '/assets/images/logos/amie.jfif'
+  },
+   {
+    title: 'Social Winter of Code (SWoC)',
+    alt: 'PS image',
+    role: 'Project Mentor',
+    skills: ['React.js', 'MongoDB', 'Express', 'HTML', 'CSS', 'JS', 'Node.js'],
+    period: 'Jan 2023 - Present',
+    logo: '/assets/images/logos/swoc.jfif'
+  },
+  {
+    title: 'Kharagpur Winter of Code (KWoC)',
+    alt: 'PS image',
+    role: 'Project Mentor',
+    skills: ['React.js', 'Tailwind CSS', 'HTML', 'CSS', 'JS', 'Node.js'],
+    period: 'Dec 2022 - Jan 2023',
+    logo: '/assets/images/logos/kwoc.jfif'
+  },
+  {
     title: 'iNeuron',
     alt: 'PS image',
     role: 'Web Development Intern',
     skills: ['MongoDB', 'Express', 'HTML', 'CSS', 'JS', 'Node.js'],
-    period: 'Present',
+    period: 'Oct 2022 - Nov 2022',
     logo: '/assets/images/logos/ineuron.png'
   },
   {
     title: 'Entrepreneurship Cell, IIT Bombay',
     alt: 'BT image',
     role: 'Campus Ambassador',
-    period: 'Present',
+    period: 'Jul 2022 - Oct 2022',
     logo: '/assets/images/logos/ecell.jpg'
   },
 
