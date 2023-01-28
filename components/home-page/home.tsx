@@ -15,7 +15,6 @@ import { MotionBox, MotionFlex } from 'components/shared/animations/motion'
 import Header from 'components/shared/header'
 import NextLink from 'next/link'
 import { useLinkColor } from 'components/theme'
-
 import { BlogPostProps } from 'interfaces/interface'
 import { newContent } from 'data/data'
 
@@ -60,7 +59,7 @@ const Home: React.FC<BlogPostProps> = (props) => {
               size={'2xl'}
               showBorder={true}
               borderColor={linkColor}
-              src={'https://avatars.githubusercontent.com/u/100220955?s=400&u=06932cb73c93d6c8490196b880473685b723566c&v=4'}
+              src={'https://avatars2.githubusercontent.com/u/37842853?v=4'}
             />
           </MotionBox>
         </MotionBox>
@@ -131,10 +130,10 @@ const Home: React.FC<BlogPostProps> = (props) => {
               </Header>
             </MotionBox>
           </Box>
-          <Box as="h2" fontSize="2xl" fontWeight="400" textAlign="center">
+          <Box as="h2" fontSize="2xl" fontWeight="400" textAlign="left">
             My name is{' '}
             <Box as="strong" fontWeight="600">
-              Aman
+              Ahmad
             </Box>{' '}
             and I&apos;m a{' '}
             <Box as="span" whiteSpace="nowrap">
@@ -143,14 +142,14 @@ const Home: React.FC<BlogPostProps> = (props) => {
             <Box as="span" whiteSpace="nowrap">
               an open source lover&nbsp;
             </Box>
-            Currently learning different{' '}
+            from{' '}
             <Box as="span" whiteSpace="nowrap">
-              WEB Technologies and want to deep dive in Web3.
+              Pakistan 🇵🇰
             </Box>
           </Box>
-          <Box as="h2" fontSize="2xl" fontWeight="400" mt={5} textAlign="center">
+          <Box as="h2" fontSize="2xl" fontWeight="400" mt={5} textAlign="left">
             This is my digital garden, where I write about the things I&apos;m
-            working on and share what I&apos;ve learned 😎
+            working on and share what I&apos;ve learned. 😊
           </Box>
         </MotionFlex>
       </Flex>
@@ -173,7 +172,7 @@ const Home: React.FC<BlogPostProps> = (props) => {
       >
         <Box mt={10}>
           <ContentBox linkColor={linkColor} />
-
+          <PopularArticles posts={posts} />
         </Box>
       </MotionBox>
     </Flex>
@@ -199,24 +198,26 @@ const ContentBox = ({ linkColor }) => {
         textAlign="center"
         color="#53c8c4"
         fontWeight="bold"
-        fontSize={['sm', 'lg']}
+        fontSize={['md', 'lg']}
         variant="gradient"
         fromcolor="blue.400"
         tocolor="red.500"
       >
-        Next Resolutions:
+        New year, new content:
       </Text>
       <UnorderedList textAlign="left" paddingLeft={5} m={0}>
         {newContent.map((content, index) => (
           <ListItem key={index}>
-
+            <NextLink href={content.link} passHref>
+              <Link color={linkColor}>
                 {content.text}
                 {content.showNewTag && (
                   <Badge ml="1" colorScheme="green">
                     New
                   </Badge>
                 )}
-
+              </Link>
+            </NextLink>
           </ListItem>
         ))}
       </UnorderedList>
