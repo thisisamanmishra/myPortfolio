@@ -131,7 +131,7 @@ const Home: React.FC<BlogPostProps> = (props) => {
               </Header>
             </MotionBox>
           </Box>
-          <Box as="h2" fontSize="2xl" fontWeight="400" textAlign="left">
+          <Box as="h2" fontSize="2xl" fontWeight="400" textAlign="center">
             My name is{' '}
             <Box as="strong" fontWeight="600">
               Aman
@@ -148,7 +148,7 @@ const Home: React.FC<BlogPostProps> = (props) => {
               WEB Technologies and want to deep dive in Web3.
             </Box>
           </Box>
-          <Box as="h2" fontSize="2xl" fontWeight="400" mt={5} textAlign="left">
+          <Box as="h2" fontSize="2xl" fontWeight="400" mt={5} textAlign="center">
             This is my digital garden, where I write about the things I&apos;m
             working on and share what I&apos;ve learned 😎
           </Box>
