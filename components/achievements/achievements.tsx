@@ -74,6 +74,15 @@ const Achievements = () => {
                 target="_blank"
               />
               </TimelineItem>
+            <TimelineItem icon={FiHome}>
+              Web Developement Intern at - {' '}
+              <ExternalLink
+                color={linkColor}
+                url="https://www.gastos.in/"
+                text={"Gastos"}
+                target="_blank"
+              />
+              </TimelineItem>
           <TimelineItem icon={FiUsers}>
               Project Mentor - {' '}
               <ExternalLink
