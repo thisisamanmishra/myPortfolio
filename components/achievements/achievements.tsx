@@ -65,7 +65,7 @@ const Achievements = () => {
             2023
           </Heading>
           <Box>
-            <TimelineItem icon={FiHome}>
+            <TimelineItem icon={FiPackage}>
               Web Developement Intern at - {' '}
               <ExternalLink
                 color={linkColor}
@@ -74,7 +74,7 @@ const Achievements = () => {
                 target="_blank"
               />
               </TimelineItem>
-            <TimelineItem icon={FiHome}>
+            <TimelineItem icon={FiUsers}>
               Web Developement Intern at - {' '}
               <ExternalLink
                 color={linkColor}
@@ -83,7 +83,7 @@ const Achievements = () => {
                 target="_blank"
               />
               </TimelineItem>
-          <TimelineItem icon={FiUsers}>
+          <TimelineItem icon={FiHome}>
               Project Mentor - {' '}
               <ExternalLink
                 color={linkColor}
