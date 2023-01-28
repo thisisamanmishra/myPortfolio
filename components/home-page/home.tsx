@@ -199,7 +199,7 @@ const ContentBox = ({ linkColor }) => {
         textAlign="center"
         color="#53c8c4"
         fontWeight="bold"
-        fontSize={['md', 'lg']}
+        fontSize={['sm', 'lg']}
         variant="gradient"
         fromcolor="blue.400"
         tocolor="red.500"
