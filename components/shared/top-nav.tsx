@@ -41,6 +41,7 @@ const webLinks = [
 const mobileLinks = [
   { name: 'Projects', path: '/projects' },
   { name: 'Open Source', path: '/open-source' },
+  { name: 'Achievements', path: '/achievements' },
   { name: 'Tech Stack', path: '/tech-stack' },
 
 ];
