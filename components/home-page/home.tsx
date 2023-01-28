@@ -207,7 +207,6 @@ const ContentBox = ({ linkColor }) => {
       <UnorderedList textAlign="left" paddingLeft={5} m={0}>
         {newContent.map((content, index) => (
           <ListItem key={index}>
-            <NextLink href={content.link} passHref>
               <Link color={linkColor}>
                 {content.text}
                 {content.showNewTag && (
@@ -216,7 +215,6 @@ const ContentBox = ({ linkColor }) => {
                   </Badge>
                 )}
               </Link>
-            </NextLink>
           </ListItem>
         ))}
       </UnorderedList>
